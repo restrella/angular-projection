@@ -8,6 +8,7 @@ import { MultiSlotComponent } from './multi-slot/multi-slot.component';
 import { TemplateExampleComponent } from './template-example/template-example.component';
 import { ChildComponent } from './child/child.component';
 import { ViewExampleComponent } from './view-example/view-example.component';
+import { ChildContentComponent } from './child-content/child-content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ViewExampleComponent } from './view-example/view-example.component';
     MultiSlotComponent,
     TemplateExampleComponent,
     ChildComponent,
-    ViewExampleComponent
+    ViewExampleComponent,
+    ChildContentComponent
   ],
   imports: [
     BrowserModule,

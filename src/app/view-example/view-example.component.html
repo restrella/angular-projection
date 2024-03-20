@@ -1,7 +1,17 @@
-<div #htmlElement>
+<!-- <div #htmlElement>
     This is an element
-</div>
+</div> -->
 
-<app-child>
-    
+<!-- <app-child #childComp></app-child>
+<app-child #childComp></app-child>
+<app-child #childComp></app-child>
+<app-child #childComp></app-child>
+<app-child #childComp></app-child> -->
+
+<app-child #childComp>
+    <app-child-content #myFirstComp></app-child-content>
+    <app-child-content #myFirstComp></app-child-content>
+    <app-child-content #myFirstComp></app-child-content>
+    <app-child-content></app-child-content>
+    <app-child-content></app-child-content>
 </app-child>
