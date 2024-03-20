@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SingleSlotComponent } from './single-slot/single-slot.component';
+import { MultiSlotComponent } from './multi-slot/multi-slot.component';
+import { TemplateExampleComponent } from './template-example/template-example.component';
+import { ChildComponent } from './child/child.component';
+import { ViewExampleComponent } from './view-example/view-example.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SingleSlotComponent,
+    MultiSlotComponent,
+    TemplateExampleComponent,
+    ChildComponent,
+    ViewExampleComponent
   ],
   imports: [
     BrowserModule,
